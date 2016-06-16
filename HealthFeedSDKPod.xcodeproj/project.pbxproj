@@ -1,0 +1,1194 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDAB9948B7E40CA03D23345B /* libPods-HealthFeedSDKPod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58493AAC129C9315FB6859E3 /* libPods-HealthFeedSDKPod.a */; };
+		F20BC1881D12FBE300A6E395 /* HealthFeedSDKPod.h in Headers */ = {isa = PBXBuildFile; fileRef = F20BC1871D12FBE300A6E395 /* HealthFeedSDKPod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F24DAA321D12FD450027C681 /* HFBottomBannerCampaignView.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DA9741D12FD440027C681 /* HFBottomBannerCampaignView.h */; };
+		F24DAA331D12FD450027C681 /* HFBottomBannerCampaignView.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DA9751D12FD440027C681 /* HFBottomBannerCampaignView.m */; };
+		F24DAA341D12FD450027C681 /* HFCampaignContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DA9761D12FD440027C681 /* HFCampaignContentView.h */; };
+		F24DAA351D12FD450027C681 /* HFCampaignContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DA9771D12FD440027C681 /* HFCampaignContentView.m */; };
+		F24DAA361D12FD450027C681 /* HFCampaignDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DA9781D12FD440027C681 /* HFCampaignDelegate.h */; };
+		F24DAA371D12FD450027C681 /* HFCampaignsUIFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DA9791D12FD440027C681 /* HFCampaignsUIFactory.h */; };
+		F24DAA381D12FD450027C681 /* HFCampaignsUIFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DA97A1D12FD440027C681 /* HFCampaignsUIFactory.m */; };
+		F24DAA391D12FD450027C681 /* HFCampaignView.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DA97B1D12FD440027C681 /* HFCampaignView.h */; };
+		F24DAA3A1D12FD450027C681 /* HFCampaignView.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DA97C1D12FD440027C681 /* HFCampaignView.m */; };
+		F24DAA3B1D12FD450027C681 /* HFFullScreenCampaignView.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DA97D1D12FD440027C681 /* HFFullScreenCampaignView.h */; };
+		F24DAA3C1D12FD450027C681 /* HFFullScreenCampaignView.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DA97E1D12FD440027C681 /* HFFullScreenCampaignView.m */; };
+		F24DAA3D1D12FD450027C681 /* HFInfeedCampaingView.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DA97F1D12FD440027C681 /* HFInfeedCampaingView.h */; };
+		F24DAA3E1D12FD450027C681 /* HFInfeedCampaingView.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DA9801D12FD440027C681 /* HFInfeedCampaingView.m */; };
+		F24DAA3F1D12FD450027C681 /* HFLeaderboardCampaignView.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DA9811D12FD440027C681 /* HFLeaderboardCampaignView.h */; };
+		F24DAA401D12FD450027C681 /* HFLeaderboardCampaignView.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DA9821D12FD440027C681 /* HFLeaderboardCampaignView.m */; };
+		F24DAA411D12FD450027C681 /* HFPopupCampaignView.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DA9831D12FD440027C681 /* HFPopupCampaignView.h */; };
+		F24DAA421D12FD450027C681 /* HFPopupCampaignView.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DA9841D12FD440027C681 /* HFPopupCampaignView.m */; };
+		F24DAA431D12FD450027C681 /* HFAPIClient.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DA9861D12FD440027C681 /* HFAPIClient.h */; };
+		F24DAA441D12FD450027C681 /* HFAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DA9871D12FD440027C681 /* HFAPIClient.m */; };
+		F24DAA451D12FD450027C681 /* ApiParams.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DA9891D12FD440027C681 /* ApiParams.h */; };
+		F24DAA461D12FD450027C681 /* ApiParams.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DA98A1D12FD440027C681 /* ApiParams.m */; };
+		F24DAA471D12FD450027C681 /* ApiUrlConfigurator.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DA98B1D12FD440027C681 /* ApiUrlConfigurator.h */; };
+		F24DAA481D12FD450027C681 /* ApiUrlConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DA98C1D12FD440027C681 /* ApiUrlConfigurator.m */; };
+		F24DAA491D12FD450027C681 /* HFCampaignsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DA98E1D12FD440027C681 /* HFCampaignsManager.h */; };
+		F24DAA4A1D12FD450027C681 /* HFCampaignsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DA98F1D12FD440027C681 /* HFCampaignsManager.m */; };
+		F24DAA4B1D12FD450027C681 /* HFCampaignsManager+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DA9911D12FD440027C681 /* HFCampaignsManager+Internal.h */; };
+		F24DAA4C1D12FD450027C681 /* HFContentManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DA9931D12FD440027C681 /* HFContentManager.h */; };
+		F24DAA4D1D12FD450027C681 /* HFContentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DA9941D12FD440027C681 /* HFContentManager.m */; };
+		F24DAA4E1D12FD450027C681 /* HealthFeedViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DA9961D12FD440027C681 /* HealthFeedViewController.h */; };
+		F24DAA4F1D12FD450027C681 /* HealthFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DA9971D12FD440027C681 /* HealthFeedViewController.m */; };
+		F24DAA501D12FD450027C681 /* HFConditionItemCellModel.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DA99A1D12FD440027C681 /* HFConditionItemCellModel.h */; };
+		F24DAA511D12FD450027C681 /* HFConditionItemCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DA99B1D12FD440027C681 /* HFConditionItemCellModel.m */; };
+		F24DAA521D12FD450027C681 /* HFContentCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DA99C1D12FD440027C681 /* HFContentCell.h */; };
+		F24DAA531D12FD450027C681 /* HFContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DA99D1D12FD440027C681 /* HFContentCell.m */; };
+		F24DAA541D12FD450027C681 /* HFFeedItemCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DA99E1D12FD440027C681 /* HFFeedItemCell.h */; };
+		F24DAA551D12FD450027C681 /* HFFeedItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DA99F1D12FD440027C681 /* HFFeedItemCell.m */; };
+		F24DAA561D12FD450027C681 /* HFMetadataItemCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DA9A01D12FD440027C681 /* HFMetadataItemCell.h */; };
+		F24DAA571D12FD450027C681 /* HFMetadataItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DA9A11D12FD440027C681 /* HFMetadataItemCell.m */; };
+		F24DAA581D12FD450027C681 /* HFPlaceholderCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DA9A21D12FD440027C681 /* HFPlaceholderCell.h */; };
+		F24DAA591D12FD450027C681 /* HFPlaceholderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DA9A31D12FD440027C681 /* HFPlaceholderCell.m */; };
+		F24DAA5A1D12FD450027C681 /* HFSectionHeaderCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DA9A41D12FD440027C681 /* HFSectionHeaderCell.h */; };
+		F24DAA5B1D12FD450027C681 /* HFSectionHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DA9A51D12FD440027C681 /* HFSectionHeaderCell.m */; };
+		F24DAA5C1D12FD450027C681 /* HFTitleCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DA9A61D12FD440027C681 /* HFTitleCell.h */; };
+		F24DAA5D1D12FD450027C681 /* HFTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DA9A71D12FD440027C681 /* HFTitleCell.m */; };
+		F24DAA5E1D12FD450027C681 /* HealthFeedStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F24DA9A81D12FD440027C681 /* HealthFeedStoryboard.storyboard */; };
+		F24DAA5F1D12FD450027C681 /* HFCommentCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DA9A91D12FD440027C681 /* HFCommentCell.h */; };
+		F24DAA601D12FD450027C681 /* HFCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DA9AA1D12FD440027C681 /* HFCommentCell.m */; };
+		F24DAA611D12FD450027C681 /* HFCommentsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DA9AB1D12FD440027C681 /* HFCommentsViewController.h */; };
+		F24DAA621D12FD450027C681 /* HFCommentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DA9AC1D12FD440027C681 /* HFCommentsViewController.m */; };
+		F24DAA631D12FD450027C681 /* HFConditionItemCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DA9AD1D12FD440027C681 /* HFConditionItemCell.h */; };
+		F24DAA641D12FD450027C681 /* HFConditionItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DA9AE1D12FD440027C681 /* HFConditionItemCell.m */; };
+		F24DAA651D12FD450027C681 /* HFConditionsChooserViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DA9AF1D12FD440027C681 /* HFConditionsChooserViewController.h */; };
+		F24DAA661D12FD450027C681 /* HFConditionsChooserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DA9B01D12FD450027C681 /* HFConditionsChooserViewController.m */; };
+		F24DAA671D12FD450027C681 /* HFCounter.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DA9B11D12FD450027C681 /* HFCounter.h */; };
+		F24DAA681D12FD450027C681 /* HFCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DA9B21D12FD450027C681 /* HFCounter.m */; };
+		F24DAA691D12FD450027C681 /* HFFavoritesViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DA9B31D12FD450027C681 /* HFFavoritesViewController.h */; };
+		F24DAA6A1D12FD450027C681 /* HFFavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DA9B41D12FD450027C681 /* HFFavoritesViewController.m */; };
+		F24DAA6B1D12FD450027C681 /* HFFeedViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DA9B51D12FD450027C681 /* HFFeedViewController.h */; };
+		F24DAA6C1D12FD450027C681 /* HFFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DA9B61D12FD450027C681 /* HFFeedViewController.m */; };
+		F24DAA6D1D12FD450027C681 /* HFInfoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DA9B71D12FD450027C681 /* HFInfoViewController.h */; };
+		F24DAA6E1D12FD450027C681 /* HFInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DA9B81D12FD450027C681 /* HFInfoViewController.m */; };
+		F24DAA6F1D12FD450027C681 /* HFLoaderCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DA9B91D12FD450027C681 /* HFLoaderCell.h */; };
+		F24DAA701D12FD450027C681 /* HFLoaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DA9BA1D12FD450027C681 /* HFLoaderCell.m */; };
+		F24DAA711D12FD450027C681 /* HFMainViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DA9BB1D12FD450027C681 /* HFMainViewController.h */; };
+		F24DAA721D12FD450027C681 /* HFMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DA9BC1D12FD450027C681 /* HFMainViewController.m */; };
+		F24DAA731D12FD450027C681 /* HFMetadataViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DA9BD1D12FD450027C681 /* HFMetadataViewController.h */; };
+		F24DAA741D12FD450027C681 /* HFMetadataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DA9BE1D12FD450027C681 /* HFMetadataViewController.m */; };
+		F24DAA751D12FD450027C681 /* HFQuestionCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DA9BF1D12FD450027C681 /* HFQuestionCell.h */; };
+		F24DAA761D12FD450027C681 /* HFQuestionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DA9C01D12FD450027C681 /* HFQuestionCell.m */; };
+		F24DAA771D12FD450027C681 /* HFQuestionsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DA9C11D12FD450027C681 /* HFQuestionsViewController.h */; };
+		F24DAA781D12FD450027C681 /* HFQuestionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DA9C21D12FD450027C681 /* HFQuestionsViewController.m */; };
+		F24DAA791D12FD450027C681 /* HFSearchViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DA9C31D12FD450027C681 /* HFSearchViewController.h */; };
+		F24DAA7A1D12FD450027C681 /* HFSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DA9C41D12FD450027C681 /* HFSearchViewController.m */; };
+		F24DAA7B1D12FD450027C681 /* HFSettingsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DA9C51D12FD450027C681 /* HFSettingsViewController.h */; };
+		F24DAA7C1D12FD450027C681 /* HFSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DA9C61D12FD450027C681 /* HFSettingsViewController.m */; };
+		F24DAA7D1D12FD450027C681 /* HFDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DA9C81D12FD450027C681 /* HFDataManager.h */; };
+		F24DAA7E1D12FD450027C681 /* HFDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DA9C91D12FD450027C681 /* HFDataManager.m */; };
+		F24DAA7F1D12FD450027C681 /* HealthFeedSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DA9CA1D12FD450027C681 /* HealthFeedSDK.h */; };
+		F24DAA801D12FD450027C681 /* HealthFeedSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DA9CB1D12FD450027C681 /* HealthFeedSDK.m */; };
+		F24DAA811D12FD450027C681 /* HFAnalyticsEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DA9CD1D12FD450027C681 /* HFAnalyticsEngine.h */; };
+		F24DAA821D12FD450027C681 /* HFAnalyticsEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DA9CE1D12FD450027C681 /* HFAnalyticsEngine.m */; };
+		F24DAA831D12FD450027C681 /* HFAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F24DA9CF1D12FD450027C681 /* HFAssets.xcassets */; };
+		F24DAA841D12FD450027C681 /* AuthService.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DA9D21D12FD450027C681 /* AuthService.h */; };
+		F24DAA851D12FD450027C681 /* AuthService.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DA9D31D12FD450027C681 /* AuthService.m */; };
+		F24DAA861D12FD450027C681 /* HealthFeedSDK+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DA9D41D12FD450027C681 /* HealthFeedSDK+Internal.h */; };
+		F24DAA871D12FD450027C681 /* HFCampaignItem.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DA9D71D12FD450027C681 /* HFCampaignItem.h */; };
+		F24DAA881D12FD450027C681 /* HFCampaignItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DA9D81D12FD450027C681 /* HFCampaignItem.m */; };
+		F24DAA891D12FD450027C681 /* HFFeedItem.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DA9DA1D12FD450027C681 /* HFFeedItem.h */; };
+		F24DAA8A1D12FD450027C681 /* HFFeedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DA9DB1D12FD450027C681 /* HFFeedItem.m */; };
+		F24DAA8B1D12FD450027C681 /* HFFeedMetadata.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DA9DC1D12FD450027C681 /* HFFeedMetadata.h */; };
+		F24DAA8C1D12FD450027C681 /* HFFeedMetadata.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DA9DD1D12FD450027C681 /* HFFeedMetadata.m */; };
+		F24DAA8D1D12FD450027C681 /* HFFeedMetadataElement.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DA9DE1D12FD450027C681 /* HFFeedMetadataElement.h */; };
+		F24DAA8E1D12FD450027C681 /* HFFeedMetadataElement.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DA9DF1D12FD450027C681 /* HFFeedMetadataElement.m */; };
+		F24DAA8F1D12FD450027C681 /* HFFeedResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DA9E01D12FD450027C681 /* HFFeedResponse.h */; };
+		F24DAA901D12FD450027C681 /* HFFeedResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DA9E11D12FD450027C681 /* HFFeedResponse.m */; };
+		F24DAA911D12FD450027C681 /* HFAPIRoleType.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DA9E21D12FD450027C681 /* HFAPIRoleType.h */; };
+		F24DAA921D12FD450027C681 /* HFBaseModelObject.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DA9E31D12FD450027C681 /* HFBaseModelObject.h */; };
+		F24DAA931D12FD450027C681 /* HFBaseModelObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DA9E41D12FD450027C681 /* HFBaseModelObject.m */; };
+		F24DAA941D12FD450027C681 /* HFError.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DA9E51D12FD450027C681 /* HFError.h */; };
+		F24DAA951D12FD450027C681 /* HFError.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DA9E61D12FD450027C681 /* HFError.m */; };
+		F24DAA961D12FD450027C681 /* HFModel.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DA9E71D12FD450027C681 /* HFModel.h */; };
+		F24DAA971D12FD450027C681 /* HFAssociatedCampaignObject.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DA9E91D12FD450027C681 /* HFAssociatedCampaignObject.h */; };
+		F24DAA981D12FD450027C681 /* HFAssociatedCampaignObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DA9EA1D12FD450027C681 /* HFAssociatedCampaignObject.m */; };
+		F24DAA991D12FD450027C681 /* HFCampaignItem+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DA9EB1D12FD450027C681 /* HFCampaignItem+Internal.h */; };
+		F24DAA9A1D12FD450027C681 /* HFCampaignItem+Internal.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DA9EC1D12FD450027C681 /* HFCampaignItem+Internal.m */; };
+		F24DAA9B1D12FD450027C681 /* HFExtraData+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DA9ED1D12FD450027C681 /* HFExtraData+Internal.h */; };
+		F24DAA9C1D12FD450027C681 /* HFExtraData+Internal.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DA9EE1D12FD450027C681 /* HFExtraData+Internal.m */; };
+		F24DAA9D1D12FD450027C681 /* HFFeedMetadata+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DA9EF1D12FD450027C681 /* HFFeedMetadata+Internal.h */; };
+		F24DAA9E1D12FD450027C681 /* HFFeedMetadata+Internal.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DA9F01D12FD450027C681 /* HFFeedMetadata+Internal.m */; };
+		F24DAA9F1D12FD450027C681 /* HFMedicalHistory+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DA9F11D12FD450027C681 /* HFMedicalHistory+Internal.h */; };
+		F24DAAA01D12FD450027C681 /* HFMedicalHistory+Internal.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DA9F21D12FD450027C681 /* HFMedicalHistory+Internal.m */; };
+		F24DAAA11D12FD450027C681 /* HFModel+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DA9F31D12FD450027C681 /* HFModel+Internal.h */; };
+		F24DAAA21D12FD450027C681 /* HFUserProfile+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DA9F41D12FD450027C681 /* HFUserProfile+Internal.h */; };
+		F24DAAA31D12FD450027C681 /* HFUserProfile+Internal.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DA9F51D12FD450027C681 /* HFUserProfile+Internal.m */; };
+		F24DAAA41D12FD450027C681 /* HFConditionItem.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DA9F71D12FD450027C681 /* HFConditionItem.h */; };
+		F24DAAA51D12FD450027C681 /* HFConditionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DA9F81D12FD450027C681 /* HFConditionItem.m */; };
+		F24DAAA61D12FD450027C681 /* HFExtraData.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DA9F91D12FD450027C681 /* HFExtraData.h */; };
+		F24DAAA71D12FD450027C681 /* HFExtraData.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DA9FA1D12FD450027C681 /* HFExtraData.m */; };
+		F24DAAA81D12FD450027C681 /* HFMedicalUserProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DA9FB1D12FD450027C681 /* HFMedicalUserProfile.h */; };
+		F24DAAA91D12FD450027C681 /* HFMedicalUserProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DA9FC1D12FD450027C681 /* HFMedicalUserProfile.m */; };
+		F24DAAAA1D12FD450027C681 /* HFUserProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DA9FD1D12FD450027C681 /* HFUserProfile.h */; };
+		F24DAAAB1D12FD450027C681 /* HFUserProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DA9FE1D12FD450027C681 /* HFUserProfile.m */; };
+		F24DAAAC1D12FD450027C681 /* HFBaseCode.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DAA001D12FD450027C681 /* HFBaseCode.h */; };
+		F24DAAAD1D12FD450027C681 /* HFBaseCode.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DAA011D12FD450027C681 /* HFBaseCode.m */; };
+		F24DAAAE1D12FD450027C681 /* HFCodeName.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DAA021D12FD450027C681 /* HFCodeName.h */; };
+		F24DAAAF1D12FD450027C681 /* HFCodeName.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DAA031D12FD450027C681 /* HFCodeName.m */; };
+		F24DAAB01D12FD450027C681 /* HFCodeStartEndPointTime.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DAA041D12FD450027C681 /* HFCodeStartEndPointTime.h */; };
+		F24DAAB11D12FD450027C681 /* HFCodeStartEndPointTime.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DAA051D12FD450027C681 /* HFCodeStartEndPointTime.m */; };
+		F24DAAB21D12FD450027C681 /* HFCodeStartEndPointTimeName.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DAA061D12FD450027C681 /* HFCodeStartEndPointTimeName.h */; };
+		F24DAAB31D12FD450027C681 /* HFCodeStartEndPointTimeName.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DAA071D12FD450027C681 /* HFCodeStartEndPointTimeName.m */; };
+		F24DAAB41D12FD450027C681 /* HFDiagnosisList.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DAA081D12FD450027C681 /* HFDiagnosisList.h */; };
+		F24DAAB51D12FD450027C681 /* HFDiagnosisList.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DAA091D12FD450027C681 /* HFDiagnosisList.m */; };
+		F24DAAB61D12FD450027C681 /* HFDrugsToAvoid.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DAA0A1D12FD450027C681 /* HFDrugsToAvoid.h */; };
+		F24DAAB71D12FD450027C681 /* HFDrugsToAvoid.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DAA0B1D12FD450027C681 /* HFDrugsToAvoid.m */; };
+		F24DAAB81D12FD450027C681 /* HFDrugsToAvoidList.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DAA0C1D12FD450027C681 /* HFDrugsToAvoidList.h */; };
+		F24DAAB91D12FD450027C681 /* HFDrugsToAvoidList.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DAA0D1D12FD450027C681 /* HFDrugsToAvoidList.m */; };
+		F24DAABA1D12FD450027C681 /* HFLastPrescription.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DAA0E1D12FD450027C681 /* HFLastPrescription.h */; };
+		F24DAABB1D12FD450027C681 /* HFLastPrescription.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DAA0F1D12FD450027C681 /* HFLastPrescription.m */; };
+		F24DAABC1D12FD450027C681 /* HFMeasurement.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DAA101D12FD450027C681 /* HFMeasurement.h */; };
+		F24DAABD1D12FD450027C681 /* HFMeasurement.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DAA111D12FD450027C681 /* HFMeasurement.m */; };
+		F24DAABE1D12FD450027C681 /* HFMeasurementList.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DAA121D12FD450027C681 /* HFMeasurementList.h */; };
+		F24DAABF1D12FD450027C681 /* HFMeasurementList.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DAA131D12FD450027C681 /* HFMeasurementList.m */; };
+		F24DAAC01D12FD450027C681 /* HFMedicalHistory.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DAA141D12FD450027C681 /* HFMedicalHistory.h */; };
+		F24DAAC11D12FD450027C681 /* HFMedicalHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DAA151D12FD450027C681 /* HFMedicalHistory.m */; };
+		F24DAAC21D12FD450027C681 /* HFMedication.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DAA161D12FD450027C681 /* HFMedication.h */; };
+		F24DAAC31D12FD450027C681 /* HFMedication.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DAA171D12FD450027C681 /* HFMedication.m */; };
+		F24DAAC41D12FD450027C681 /* HFMedicationList.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DAA181D12FD450027C681 /* HFMedicationList.h */; };
+		F24DAAC51D12FD450027C681 /* HFMedicationList.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DAA191D12FD450027C681 /* HFMedicationList.m */; };
+		F24DAAC61D12FD450027C681 /* HFPregnancy.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DAA1A1D12FD450027C681 /* HFPregnancy.h */; };
+		F24DAAC71D12FD450027C681 /* HFPregnancy.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DAA1B1D12FD450027C681 /* HFPregnancy.m */; };
+		F24DAAC81D12FD450027C681 /* HFProcedure.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DAA1C1D12FD450027C681 /* HFProcedure.h */; };
+		F24DAAC91D12FD450027C681 /* HFProcedure.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DAA1D1D12FD450027C681 /* HFProcedure.m */; };
+		F24DAACA1D12FD450027C681 /* HFProcedureList.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DAA1E1D12FD450027C681 /* HFProcedureList.h */; };
+		F24DAACB1D12FD450027C681 /* HFProcedureList.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DAA1F1D12FD450027C681 /* HFProcedureList.m */; };
+		F24DAACC1D12FD450027C681 /* HFProfessionList.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DAA201D12FD450027C681 /* HFProfessionList.h */; };
+		F24DAACD1D12FD450027C681 /* HFProfessionList.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DAA211D12FD450027C681 /* HFProfessionList.m */; };
+		F24DAACE1D12FD450027C681 /* HFReasonForAvoiding.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DAA221D12FD450027C681 /* HFReasonForAvoiding.h */; };
+		F24DAACF1D12FD450027C681 /* HFReasonForAvoiding.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DAA231D12FD450027C681 /* HFReasonForAvoiding.m */; };
+		F24DAAD01D12FD450027C681 /* HFSmoking.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DAA241D12FD450027C681 /* HFSmoking.h */; };
+		F24DAAD11D12FD450027C681 /* HFSmoking.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DAA251D12FD450027C681 /* HFSmoking.m */; };
+		F24DAAD21D12FD450027C681 /* HFTherapiesList.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DAA261D12FD450027C681 /* HFTherapiesList.h */; };
+		F24DAAD31D12FD450027C681 /* HFTherapiesList.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DAA271D12FD450027C681 /* HFTherapiesList.m */; };
+		F24DAAD41D12FD450027C681 /* HFVaccine.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DAA281D12FD450027C681 /* HFVaccine.h */; };
+		F24DAAD51D12FD450027C681 /* HFVaccine.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DAA291D12FD450027C681 /* HFVaccine.m */; };
+		F24DAAD61D12FD450027C681 /* HFVaccineList.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DAA2A1D12FD450027C681 /* HFVaccineList.h */; };
+		F24DAAD71D12FD450027C681 /* HFVaccineList.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DAA2B1D12FD450027C681 /* HFVaccineList.m */; };
+		F24DAAD81D12FD450027C681 /* settings.html in Resources */ = {isa = PBXBuildFile; fileRef = F24DAA2D1D12FD450027C681 /* settings.html */; };
+		F24DAAD91D12FD450027C681 /* widget_info_image.png in Resources */ = {isa = PBXBuildFile; fileRef = F24DAA2E1D12FD450027C681 /* widget_info_image.png */; };
+		F24DAADA1D12FD450027C681 /* NSDate+HF.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DAA301D12FD450027C681 /* NSDate+HF.h */; };
+		F24DAADB1D12FD450027C681 /* NSDate+HF.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DAA311D12FD450027C681 /* NSDate+HF.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		36813FC8A8A1740030B81D5E /* Pods-HealthFeedSDKPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthFeedSDKPod.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HealthFeedSDKPod/Pods-HealthFeedSDKPod.debug.xcconfig"; sourceTree = "<group>"; };
+		58493AAC129C9315FB6859E3 /* libPods-HealthFeedSDKPod.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HealthFeedSDKPod.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B364D6C52B3FD6A90E565C2 /* Pods-HealthFeedSDKPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthFeedSDKPod.release.xcconfig"; path = "Pods/Target Support Files/Pods-HealthFeedSDKPod/Pods-HealthFeedSDKPod.release.xcconfig"; sourceTree = "<group>"; };
+		F20BC1841D12FBE300A6E395 /* HealthFeedSDKPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HealthFeedSDKPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F20BC1871D12FBE300A6E395 /* HealthFeedSDKPod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HealthFeedSDKPod.h; sourceTree = "<group>"; };
+		F20BC1891D12FBE300A6E395 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F24DA9741D12FD440027C681 /* HFBottomBannerCampaignView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFBottomBannerCampaignView.h; sourceTree = "<group>"; };
+		F24DA9751D12FD440027C681 /* HFBottomBannerCampaignView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFBottomBannerCampaignView.m; sourceTree = "<group>"; };
+		F24DA9761D12FD440027C681 /* HFCampaignContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFCampaignContentView.h; sourceTree = "<group>"; };
+		F24DA9771D12FD440027C681 /* HFCampaignContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFCampaignContentView.m; sourceTree = "<group>"; };
+		F24DA9781D12FD440027C681 /* HFCampaignDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFCampaignDelegate.h; sourceTree = "<group>"; };
+		F24DA9791D12FD440027C681 /* HFCampaignsUIFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFCampaignsUIFactory.h; sourceTree = "<group>"; };
+		F24DA97A1D12FD440027C681 /* HFCampaignsUIFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFCampaignsUIFactory.m; sourceTree = "<group>"; };
+		F24DA97B1D12FD440027C681 /* HFCampaignView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFCampaignView.h; sourceTree = "<group>"; };
+		F24DA97C1D12FD440027C681 /* HFCampaignView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFCampaignView.m; sourceTree = "<group>"; };
+		F24DA97D1D12FD440027C681 /* HFFullScreenCampaignView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFFullScreenCampaignView.h; sourceTree = "<group>"; };
+		F24DA97E1D12FD440027C681 /* HFFullScreenCampaignView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFFullScreenCampaignView.m; sourceTree = "<group>"; };
+		F24DA97F1D12FD440027C681 /* HFInfeedCampaingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFInfeedCampaingView.h; sourceTree = "<group>"; };
+		F24DA9801D12FD440027C681 /* HFInfeedCampaingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFInfeedCampaingView.m; sourceTree = "<group>"; };
+		F24DA9811D12FD440027C681 /* HFLeaderboardCampaignView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFLeaderboardCampaignView.h; sourceTree = "<group>"; };
+		F24DA9821D12FD440027C681 /* HFLeaderboardCampaignView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFLeaderboardCampaignView.m; sourceTree = "<group>"; };
+		F24DA9831D12FD440027C681 /* HFPopupCampaignView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFPopupCampaignView.h; sourceTree = "<group>"; };
+		F24DA9841D12FD440027C681 /* HFPopupCampaignView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFPopupCampaignView.m; sourceTree = "<group>"; };
+		F24DA9861D12FD440027C681 /* HFAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFAPIClient.h; sourceTree = "<group>"; };
+		F24DA9871D12FD440027C681 /* HFAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFAPIClient.m; sourceTree = "<group>"; };
+		F24DA9891D12FD440027C681 /* ApiParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiParams.h; sourceTree = "<group>"; };
+		F24DA98A1D12FD440027C681 /* ApiParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiParams.m; sourceTree = "<group>"; };
+		F24DA98B1D12FD440027C681 /* ApiUrlConfigurator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiUrlConfigurator.h; sourceTree = "<group>"; };
+		F24DA98C1D12FD440027C681 /* ApiUrlConfigurator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiUrlConfigurator.m; sourceTree = "<group>"; };
+		F24DA98E1D12FD440027C681 /* HFCampaignsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFCampaignsManager.h; sourceTree = "<group>"; };
+		F24DA98F1D12FD440027C681 /* HFCampaignsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFCampaignsManager.m; sourceTree = "<group>"; };
+		F24DA9911D12FD440027C681 /* HFCampaignsManager+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HFCampaignsManager+Internal.h"; sourceTree = "<group>"; };
+		F24DA9931D12FD440027C681 /* HFContentManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFContentManager.h; sourceTree = "<group>"; };
+		F24DA9941D12FD440027C681 /* HFContentManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFContentManager.m; sourceTree = "<group>"; };
+		F24DA9961D12FD440027C681 /* HealthFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthFeedViewController.h; sourceTree = "<group>"; };
+		F24DA9971D12FD440027C681 /* HealthFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthFeedViewController.m; sourceTree = "<group>"; };
+		F24DA99A1D12FD440027C681 /* HFConditionItemCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFConditionItemCellModel.h; sourceTree = "<group>"; };
+		F24DA99B1D12FD440027C681 /* HFConditionItemCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFConditionItemCellModel.m; sourceTree = "<group>"; };
+		F24DA99C1D12FD440027C681 /* HFContentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFContentCell.h; sourceTree = "<group>"; };
+		F24DA99D1D12FD440027C681 /* HFContentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFContentCell.m; sourceTree = "<group>"; };
+		F24DA99E1D12FD440027C681 /* HFFeedItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFFeedItemCell.h; sourceTree = "<group>"; };
+		F24DA99F1D12FD440027C681 /* HFFeedItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFFeedItemCell.m; sourceTree = "<group>"; };
+		F24DA9A01D12FD440027C681 /* HFMetadataItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFMetadataItemCell.h; sourceTree = "<group>"; };
+		F24DA9A11D12FD440027C681 /* HFMetadataItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFMetadataItemCell.m; sourceTree = "<group>"; };
+		F24DA9A21D12FD440027C681 /* HFPlaceholderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFPlaceholderCell.h; sourceTree = "<group>"; };
+		F24DA9A31D12FD440027C681 /* HFPlaceholderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFPlaceholderCell.m; sourceTree = "<group>"; };
+		F24DA9A41D12FD440027C681 /* HFSectionHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFSectionHeaderCell.h; sourceTree = "<group>"; };
+		F24DA9A51D12FD440027C681 /* HFSectionHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFSectionHeaderCell.m; sourceTree = "<group>"; };
+		F24DA9A61D12FD440027C681 /* HFTitleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFTitleCell.h; sourceTree = "<group>"; };
+		F24DA9A71D12FD440027C681 /* HFTitleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFTitleCell.m; sourceTree = "<group>"; };
+		F24DA9A81D12FD440027C681 /* HealthFeedStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HealthFeedStoryboard.storyboard; sourceTree = "<group>"; };
+		F24DA9A91D12FD440027C681 /* HFCommentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFCommentCell.h; sourceTree = "<group>"; };
+		F24DA9AA1D12FD440027C681 /* HFCommentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFCommentCell.m; sourceTree = "<group>"; };
+		F24DA9AB1D12FD440027C681 /* HFCommentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFCommentsViewController.h; sourceTree = "<group>"; };
+		F24DA9AC1D12FD440027C681 /* HFCommentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFCommentsViewController.m; sourceTree = "<group>"; };
+		F24DA9AD1D12FD440027C681 /* HFConditionItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFConditionItemCell.h; sourceTree = "<group>"; };
+		F24DA9AE1D12FD440027C681 /* HFConditionItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFConditionItemCell.m; sourceTree = "<group>"; };
+		F24DA9AF1D12FD440027C681 /* HFConditionsChooserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFConditionsChooserViewController.h; sourceTree = "<group>"; };
+		F24DA9B01D12FD450027C681 /* HFConditionsChooserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFConditionsChooserViewController.m; sourceTree = "<group>"; };
+		F24DA9B11D12FD450027C681 /* HFCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFCounter.h; sourceTree = "<group>"; };
+		F24DA9B21D12FD450027C681 /* HFCounter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFCounter.m; sourceTree = "<group>"; };
+		F24DA9B31D12FD450027C681 /* HFFavoritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFFavoritesViewController.h; sourceTree = "<group>"; };
+		F24DA9B41D12FD450027C681 /* HFFavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFFavoritesViewController.m; sourceTree = "<group>"; };
+		F24DA9B51D12FD450027C681 /* HFFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFFeedViewController.h; sourceTree = "<group>"; };
+		F24DA9B61D12FD450027C681 /* HFFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFFeedViewController.m; sourceTree = "<group>"; };
+		F24DA9B71D12FD450027C681 /* HFInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFInfoViewController.h; sourceTree = "<group>"; };
+		F24DA9B81D12FD450027C681 /* HFInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFInfoViewController.m; sourceTree = "<group>"; };
+		F24DA9B91D12FD450027C681 /* HFLoaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFLoaderCell.h; sourceTree = "<group>"; };
+		F24DA9BA1D12FD450027C681 /* HFLoaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFLoaderCell.m; sourceTree = "<group>"; };
+		F24DA9BB1D12FD450027C681 /* HFMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFMainViewController.h; sourceTree = "<group>"; };
+		F24DA9BC1D12FD450027C681 /* HFMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFMainViewController.m; sourceTree = "<group>"; };
+		F24DA9BD1D12FD450027C681 /* HFMetadataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFMetadataViewController.h; sourceTree = "<group>"; };
+		F24DA9BE1D12FD450027C681 /* HFMetadataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFMetadataViewController.m; sourceTree = "<group>"; };
+		F24DA9BF1D12FD450027C681 /* HFQuestionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFQuestionCell.h; sourceTree = "<group>"; };
+		F24DA9C01D12FD450027C681 /* HFQuestionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFQuestionCell.m; sourceTree = "<group>"; };
+		F24DA9C11D12FD450027C681 /* HFQuestionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFQuestionsViewController.h; sourceTree = "<group>"; };
+		F24DA9C21D12FD450027C681 /* HFQuestionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFQuestionsViewController.m; sourceTree = "<group>"; };
+		F24DA9C31D12FD450027C681 /* HFSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFSearchViewController.h; sourceTree = "<group>"; };
+		F24DA9C41D12FD450027C681 /* HFSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFSearchViewController.m; sourceTree = "<group>"; };
+		F24DA9C51D12FD450027C681 /* HFSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFSettingsViewController.h; sourceTree = "<group>"; };
+		F24DA9C61D12FD450027C681 /* HFSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFSettingsViewController.m; sourceTree = "<group>"; };
+		F24DA9C81D12FD450027C681 /* HFDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFDataManager.h; sourceTree = "<group>"; };
+		F24DA9C91D12FD450027C681 /* HFDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFDataManager.m; sourceTree = "<group>"; };
+		F24DA9CA1D12FD450027C681 /* HealthFeedSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthFeedSDK.h; sourceTree = "<group>"; };
+		F24DA9CB1D12FD450027C681 /* HealthFeedSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthFeedSDK.m; sourceTree = "<group>"; };
+		F24DA9CD1D12FD450027C681 /* HFAnalyticsEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFAnalyticsEngine.h; sourceTree = "<group>"; };
+		F24DA9CE1D12FD450027C681 /* HFAnalyticsEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFAnalyticsEngine.m; sourceTree = "<group>"; };
+		F24DA9CF1D12FD450027C681 /* HFAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = HFAssets.xcassets; sourceTree = "<group>"; };
+		F24DA9D21D12FD450027C681 /* AuthService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthService.h; sourceTree = "<group>"; };
+		F24DA9D31D12FD450027C681 /* AuthService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthService.m; sourceTree = "<group>"; };
+		F24DA9D41D12FD450027C681 /* HealthFeedSDK+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HealthFeedSDK+Internal.h"; sourceTree = "<group>"; };
+		F24DA9D71D12FD450027C681 /* HFCampaignItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFCampaignItem.h; sourceTree = "<group>"; };
+		F24DA9D81D12FD450027C681 /* HFCampaignItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFCampaignItem.m; sourceTree = "<group>"; };
+		F24DA9DA1D12FD450027C681 /* HFFeedItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFFeedItem.h; sourceTree = "<group>"; };
+		F24DA9DB1D12FD450027C681 /* HFFeedItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFFeedItem.m; sourceTree = "<group>"; };
+		F24DA9DC1D12FD450027C681 /* HFFeedMetadata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFFeedMetadata.h; sourceTree = "<group>"; };
+		F24DA9DD1D12FD450027C681 /* HFFeedMetadata.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFFeedMetadata.m; sourceTree = "<group>"; };
+		F24DA9DE1D12FD450027C681 /* HFFeedMetadataElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFFeedMetadataElement.h; sourceTree = "<group>"; };
+		F24DA9DF1D12FD450027C681 /* HFFeedMetadataElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFFeedMetadataElement.m; sourceTree = "<group>"; };
+		F24DA9E01D12FD450027C681 /* HFFeedResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFFeedResponse.h; sourceTree = "<group>"; };
+		F24DA9E11D12FD450027C681 /* HFFeedResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFFeedResponse.m; sourceTree = "<group>"; };
+		F24DA9E21D12FD450027C681 /* HFAPIRoleType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFAPIRoleType.h; sourceTree = "<group>"; };
+		F24DA9E31D12FD450027C681 /* HFBaseModelObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFBaseModelObject.h; sourceTree = "<group>"; };
+		F24DA9E41D12FD450027C681 /* HFBaseModelObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFBaseModelObject.m; sourceTree = "<group>"; };
+		F24DA9E51D12FD450027C681 /* HFError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFError.h; sourceTree = "<group>"; };
+		F24DA9E61D12FD450027C681 /* HFError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFError.m; sourceTree = "<group>"; };
+		F24DA9E71D12FD450027C681 /* HFModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFModel.h; sourceTree = "<group>"; };
+		F24DA9E91D12FD450027C681 /* HFAssociatedCampaignObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFAssociatedCampaignObject.h; sourceTree = "<group>"; };
+		F24DA9EA1D12FD450027C681 /* HFAssociatedCampaignObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFAssociatedCampaignObject.m; sourceTree = "<group>"; };
+		F24DA9EB1D12FD450027C681 /* HFCampaignItem+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HFCampaignItem+Internal.h"; sourceTree = "<group>"; };
+		F24DA9EC1D12FD450027C681 /* HFCampaignItem+Internal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HFCampaignItem+Internal.m"; sourceTree = "<group>"; };
+		F24DA9ED1D12FD450027C681 /* HFExtraData+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HFExtraData+Internal.h"; sourceTree = "<group>"; };
+		F24DA9EE1D12FD450027C681 /* HFExtraData+Internal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HFExtraData+Internal.m"; sourceTree = "<group>"; };
+		F24DA9EF1D12FD450027C681 /* HFFeedMetadata+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HFFeedMetadata+Internal.h"; sourceTree = "<group>"; };
+		F24DA9F01D12FD450027C681 /* HFFeedMetadata+Internal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HFFeedMetadata+Internal.m"; sourceTree = "<group>"; };
+		F24DA9F11D12FD450027C681 /* HFMedicalHistory+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HFMedicalHistory+Internal.h"; sourceTree = "<group>"; };
+		F24DA9F21D12FD450027C681 /* HFMedicalHistory+Internal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HFMedicalHistory+Internal.m"; sourceTree = "<group>"; };
+		F24DA9F31D12FD450027C681 /* HFModel+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HFModel+Internal.h"; sourceTree = "<group>"; };
+		F24DA9F41D12FD450027C681 /* HFUserProfile+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HFUserProfile+Internal.h"; sourceTree = "<group>"; };
+		F24DA9F51D12FD450027C681 /* HFUserProfile+Internal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HFUserProfile+Internal.m"; sourceTree = "<group>"; };
+		F24DA9F71D12FD450027C681 /* HFConditionItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFConditionItem.h; sourceTree = "<group>"; };
+		F24DA9F81D12FD450027C681 /* HFConditionItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFConditionItem.m; sourceTree = "<group>"; };
+		F24DA9F91D12FD450027C681 /* HFExtraData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFExtraData.h; sourceTree = "<group>"; };
+		F24DA9FA1D12FD450027C681 /* HFExtraData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFExtraData.m; sourceTree = "<group>"; };
+		F24DA9FB1D12FD450027C681 /* HFMedicalUserProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFMedicalUserProfile.h; sourceTree = "<group>"; };
+		F24DA9FC1D12FD450027C681 /* HFMedicalUserProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFMedicalUserProfile.m; sourceTree = "<group>"; };
+		F24DA9FD1D12FD450027C681 /* HFUserProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFUserProfile.h; sourceTree = "<group>"; };
+		F24DA9FE1D12FD450027C681 /* HFUserProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFUserProfile.m; sourceTree = "<group>"; };
+		F24DAA001D12FD450027C681 /* HFBaseCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFBaseCode.h; sourceTree = "<group>"; };
+		F24DAA011D12FD450027C681 /* HFBaseCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFBaseCode.m; sourceTree = "<group>"; };
+		F24DAA021D12FD450027C681 /* HFCodeName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFCodeName.h; sourceTree = "<group>"; };
+		F24DAA031D12FD450027C681 /* HFCodeName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFCodeName.m; sourceTree = "<group>"; };
+		F24DAA041D12FD450027C681 /* HFCodeStartEndPointTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFCodeStartEndPointTime.h; sourceTree = "<group>"; };
+		F24DAA051D12FD450027C681 /* HFCodeStartEndPointTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFCodeStartEndPointTime.m; sourceTree = "<group>"; };
+		F24DAA061D12FD450027C681 /* HFCodeStartEndPointTimeName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFCodeStartEndPointTimeName.h; sourceTree = "<group>"; };
+		F24DAA071D12FD450027C681 /* HFCodeStartEndPointTimeName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFCodeStartEndPointTimeName.m; sourceTree = "<group>"; };
+		F24DAA081D12FD450027C681 /* HFDiagnosisList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFDiagnosisList.h; sourceTree = "<group>"; };
+		F24DAA091D12FD450027C681 /* HFDiagnosisList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFDiagnosisList.m; sourceTree = "<group>"; };
+		F24DAA0A1D12FD450027C681 /* HFDrugsToAvoid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFDrugsToAvoid.h; sourceTree = "<group>"; };
+		F24DAA0B1D12FD450027C681 /* HFDrugsToAvoid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFDrugsToAvoid.m; sourceTree = "<group>"; };
+		F24DAA0C1D12FD450027C681 /* HFDrugsToAvoidList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFDrugsToAvoidList.h; sourceTree = "<group>"; };
+		F24DAA0D1D12FD450027C681 /* HFDrugsToAvoidList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFDrugsToAvoidList.m; sourceTree = "<group>"; };
+		F24DAA0E1D12FD450027C681 /* HFLastPrescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFLastPrescription.h; sourceTree = "<group>"; };
+		F24DAA0F1D12FD450027C681 /* HFLastPrescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFLastPrescription.m; sourceTree = "<group>"; };
+		F24DAA101D12FD450027C681 /* HFMeasurement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFMeasurement.h; sourceTree = "<group>"; };
+		F24DAA111D12FD450027C681 /* HFMeasurement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFMeasurement.m; sourceTree = "<group>"; };
+		F24DAA121D12FD450027C681 /* HFMeasurementList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFMeasurementList.h; sourceTree = "<group>"; };
+		F24DAA131D12FD450027C681 /* HFMeasurementList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFMeasurementList.m; sourceTree = "<group>"; };
+		F24DAA141D12FD450027C681 /* HFMedicalHistory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFMedicalHistory.h; sourceTree = "<group>"; };
+		F24DAA151D12FD450027C681 /* HFMedicalHistory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFMedicalHistory.m; sourceTree = "<group>"; };
+		F24DAA161D12FD450027C681 /* HFMedication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFMedication.h; sourceTree = "<group>"; };
+		F24DAA171D12FD450027C681 /* HFMedication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFMedication.m; sourceTree = "<group>"; };
+		F24DAA181D12FD450027C681 /* HFMedicationList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFMedicationList.h; sourceTree = "<group>"; };
+		F24DAA191D12FD450027C681 /* HFMedicationList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFMedicationList.m; sourceTree = "<group>"; };
+		F24DAA1A1D12FD450027C681 /* HFPregnancy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFPregnancy.h; sourceTree = "<group>"; };
+		F24DAA1B1D12FD450027C681 /* HFPregnancy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFPregnancy.m; sourceTree = "<group>"; };
+		F24DAA1C1D12FD450027C681 /* HFProcedure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFProcedure.h; sourceTree = "<group>"; };
+		F24DAA1D1D12FD450027C681 /* HFProcedure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFProcedure.m; sourceTree = "<group>"; };
+		F24DAA1E1D12FD450027C681 /* HFProcedureList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFProcedureList.h; sourceTree = "<group>"; };
+		F24DAA1F1D12FD450027C681 /* HFProcedureList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFProcedureList.m; sourceTree = "<group>"; };
+		F24DAA201D12FD450027C681 /* HFProfessionList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFProfessionList.h; sourceTree = "<group>"; };
+		F24DAA211D12FD450027C681 /* HFProfessionList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFProfessionList.m; sourceTree = "<group>"; };
+		F24DAA221D12FD450027C681 /* HFReasonForAvoiding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFReasonForAvoiding.h; sourceTree = "<group>"; };
+		F24DAA231D12FD450027C681 /* HFReasonForAvoiding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFReasonForAvoiding.m; sourceTree = "<group>"; };
+		F24DAA241D12FD450027C681 /* HFSmoking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFSmoking.h; sourceTree = "<group>"; };
+		F24DAA251D12FD450027C681 /* HFSmoking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFSmoking.m; sourceTree = "<group>"; };
+		F24DAA261D12FD450027C681 /* HFTherapiesList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFTherapiesList.h; sourceTree = "<group>"; };
+		F24DAA271D12FD450027C681 /* HFTherapiesList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFTherapiesList.m; sourceTree = "<group>"; };
+		F24DAA281D12FD450027C681 /* HFVaccine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFVaccine.h; sourceTree = "<group>"; };
+		F24DAA291D12FD450027C681 /* HFVaccine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFVaccine.m; sourceTree = "<group>"; };
+		F24DAA2A1D12FD450027C681 /* HFVaccineList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFVaccineList.h; sourceTree = "<group>"; };
+		F24DAA2B1D12FD450027C681 /* HFVaccineList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFVaccineList.m; sourceTree = "<group>"; };
+		F24DAA2D1D12FD450027C681 /* settings.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = settings.html; sourceTree = "<group>"; };
+		F24DAA2E1D12FD450027C681 /* widget_info_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = widget_info_image.png; sourceTree = "<group>"; };
+		F24DAA301D12FD450027C681 /* NSDate+HF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+HF.h"; sourceTree = "<group>"; };
+		F24DAA311D12FD450027C681 /* NSDate+HF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+HF.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F20BC1801D12FBE300A6E395 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDAB9948B7E40CA03D23345B /* libPods-HealthFeedSDKPod.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15A680593DF02BA149011C0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58493AAC129C9315FB6859E3 /* libPods-HealthFeedSDKPod.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F2C61AD542F22332973D45F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36813FC8A8A1740030B81D5E /* Pods-HealthFeedSDKPod.debug.xcconfig */,
+				5B364D6C52B3FD6A90E565C2 /* Pods-HealthFeedSDKPod.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F20BC17A1D12FBE300A6E395 = {
+			isa = PBXGroup;
+			children = (
+				F20BC1861D12FBE300A6E395 /* HealthFeedSDKPod */,
+				F20BC1851D12FBE300A6E395 /* Products */,
+				2F2C61AD542F22332973D45F /* Pods */,
+				15A680593DF02BA149011C0F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F20BC1851D12FBE300A6E395 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F20BC1841D12FBE300A6E395 /* HealthFeedSDKPod.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F20BC1861D12FBE300A6E395 /* HealthFeedSDKPod */ = {
+			isa = PBXGroup;
+			children = (
+				F24DA9731D12FD440027C681 /* CampaignsUI */,
+				F24DA9851D12FD440027C681 /* HealthFeedApiClient */,
+				F24DA98D1D12FD440027C681 /* HealthFeedCampaignManager */,
+				F24DA9921D12FD440027C681 /* HealthFeedContentManager */,
+				F24DA9951D12FD440027C681 /* HealthFeedController */,
+				F24DA9C71D12FD450027C681 /* HealthFeedDataManager */,
+				F24DA9CA1D12FD450027C681 /* HealthFeedSDK.h */,
+				F24DA9CB1D12FD450027C681 /* HealthFeedSDK.m */,
+				F24DA9CC1D12FD450027C681 /* HFAnalyticsEngine */,
+				F24DA9CF1D12FD450027C681 /* HFAssets.xcassets */,
+				F24DA9D01D12FD450027C681 /* Internal */,
+				F24DA9D51D12FD450027C681 /* Model */,
+				F24DAA2C1D12FD450027C681 /* Resources */,
+				F24DAA2F1D12FD450027C681 /* Utils */,
+				F20BC1871D12FBE300A6E395 /* HealthFeedSDKPod.h */,
+				F20BC1891D12FBE300A6E395 /* Info.plist */,
+			);
+			path = HealthFeedSDKPod;
+			sourceTree = "<group>";
+		};
+		F24DA9731D12FD440027C681 /* CampaignsUI */ = {
+			isa = PBXGroup;
+			children = (
+				F24DA9741D12FD440027C681 /* HFBottomBannerCampaignView.h */,
+				F24DA9751D12FD440027C681 /* HFBottomBannerCampaignView.m */,
+				F24DA9761D12FD440027C681 /* HFCampaignContentView.h */,
+				F24DA9771D12FD440027C681 /* HFCampaignContentView.m */,
+				F24DA9781D12FD440027C681 /* HFCampaignDelegate.h */,
+				F24DA9791D12FD440027C681 /* HFCampaignsUIFactory.h */,
+				F24DA97A1D12FD440027C681 /* HFCampaignsUIFactory.m */,
+				F24DA97B1D12FD440027C681 /* HFCampaignView.h */,
+				F24DA97C1D12FD440027C681 /* HFCampaignView.m */,
+				F24DA97D1D12FD440027C681 /* HFFullScreenCampaignView.h */,
+				F24DA97E1D12FD440027C681 /* HFFullScreenCampaignView.m */,
+				F24DA97F1D12FD440027C681 /* HFInfeedCampaingView.h */,
+				F24DA9801D12FD440027C681 /* HFInfeedCampaingView.m */,
+				F24DA9811D12FD440027C681 /* HFLeaderboardCampaignView.h */,
+				F24DA9821D12FD440027C681 /* HFLeaderboardCampaignView.m */,
+				F24DA9831D12FD440027C681 /* HFPopupCampaignView.h */,
+				F24DA9841D12FD440027C681 /* HFPopupCampaignView.m */,
+			);
+			path = CampaignsUI;
+			sourceTree = "<group>";
+		};
+		F24DA9851D12FD440027C681 /* HealthFeedApiClient */ = {
+			isa = PBXGroup;
+			children = (
+				F24DA9861D12FD440027C681 /* HFAPIClient.h */,
+				F24DA9871D12FD440027C681 /* HFAPIClient.m */,
+				F24DA9881D12FD440027C681 /* Internal */,
+			);
+			path = HealthFeedApiClient;
+			sourceTree = "<group>";
+		};
+		F24DA9881D12FD440027C681 /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				F24DA9891D12FD440027C681 /* ApiParams.h */,
+				F24DA98A1D12FD440027C681 /* ApiParams.m */,
+				F24DA98B1D12FD440027C681 /* ApiUrlConfigurator.h */,
+				F24DA98C1D12FD440027C681 /* ApiUrlConfigurator.m */,
+			);
+			path = Internal;
+			sourceTree = "<group>";
+		};
+		F24DA98D1D12FD440027C681 /* HealthFeedCampaignManager */ = {
+			isa = PBXGroup;
+			children = (
+				F24DA98E1D12FD440027C681 /* HFCampaignsManager.h */,
+				F24DA98F1D12FD440027C681 /* HFCampaignsManager.m */,
+				F24DA9901D12FD440027C681 /* Internal */,
+			);
+			path = HealthFeedCampaignManager;
+			sourceTree = "<group>";
+		};
+		F24DA9901D12FD440027C681 /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				F24DA9911D12FD440027C681 /* HFCampaignsManager+Internal.h */,
+			);
+			path = Internal;
+			sourceTree = "<group>";
+		};
+		F24DA9921D12FD440027C681 /* HealthFeedContentManager */ = {
+			isa = PBXGroup;
+			children = (
+				F24DA9931D12FD440027C681 /* HFContentManager.h */,
+				F24DA9941D12FD440027C681 /* HFContentManager.m */,
+			);
+			path = HealthFeedContentManager;
+			sourceTree = "<group>";
+		};
+		F24DA9951D12FD440027C681 /* HealthFeedController */ = {
+			isa = PBXGroup;
+			children = (
+				F24DA9961D12FD440027C681 /* HealthFeedViewController.h */,
+				F24DA9971D12FD440027C681 /* HealthFeedViewController.m */,
+				F24DA9981D12FD440027C681 /* Internal */,
+			);
+			path = HealthFeedController;
+			sourceTree = "<group>";
+		};
+		F24DA9981D12FD440027C681 /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				F24DA9991D12FD440027C681 /* Cells */,
+				F24DA9A81D12FD440027C681 /* HealthFeedStoryboard.storyboard */,
+				F24DA9A91D12FD440027C681 /* HFCommentCell.h */,
+				F24DA9AA1D12FD440027C681 /* HFCommentCell.m */,
+				F24DA9AB1D12FD440027C681 /* HFCommentsViewController.h */,
+				F24DA9AC1D12FD440027C681 /* HFCommentsViewController.m */,
+				F24DA9AD1D12FD440027C681 /* HFConditionItemCell.h */,
+				F24DA9AE1D12FD440027C681 /* HFConditionItemCell.m */,
+				F24DA9AF1D12FD440027C681 /* HFConditionsChooserViewController.h */,
+				F24DA9B01D12FD450027C681 /* HFConditionsChooserViewController.m */,
+				F24DA9B11D12FD450027C681 /* HFCounter.h */,
+				F24DA9B21D12FD450027C681 /* HFCounter.m */,
+				F24DA9B31D12FD450027C681 /* HFFavoritesViewController.h */,
+				F24DA9B41D12FD450027C681 /* HFFavoritesViewController.m */,
+				F24DA9B51D12FD450027C681 /* HFFeedViewController.h */,
+				F24DA9B61D12FD450027C681 /* HFFeedViewController.m */,
+				F24DA9B71D12FD450027C681 /* HFInfoViewController.h */,
+				F24DA9B81D12FD450027C681 /* HFInfoViewController.m */,
+				F24DA9B91D12FD450027C681 /* HFLoaderCell.h */,
+				F24DA9BA1D12FD450027C681 /* HFLoaderCell.m */,
+				F24DA9BB1D12FD450027C681 /* HFMainViewController.h */,
+				F24DA9BC1D12FD450027C681 /* HFMainViewController.m */,
+				F24DA9BD1D12FD450027C681 /* HFMetadataViewController.h */,
+				F24DA9BE1D12FD450027C681 /* HFMetadataViewController.m */,
+				F24DA9BF1D12FD450027C681 /* HFQuestionCell.h */,
+				F24DA9C01D12FD450027C681 /* HFQuestionCell.m */,
+				F24DA9C11D12FD450027C681 /* HFQuestionsViewController.h */,
+				F24DA9C21D12FD450027C681 /* HFQuestionsViewController.m */,
+				F24DA9C31D12FD450027C681 /* HFSearchViewController.h */,
+				F24DA9C41D12FD450027C681 /* HFSearchViewController.m */,
+				F24DA9C51D12FD450027C681 /* HFSettingsViewController.h */,
+				F24DA9C61D12FD450027C681 /* HFSettingsViewController.m */,
+			);
+			path = Internal;
+			sourceTree = "<group>";
+		};
+		F24DA9991D12FD440027C681 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F24DA99A1D12FD440027C681 /* HFConditionItemCellModel.h */,
+				F24DA99B1D12FD440027C681 /* HFConditionItemCellModel.m */,
+				F24DA99C1D12FD440027C681 /* HFContentCell.h */,
+				F24DA99D1D12FD440027C681 /* HFContentCell.m */,
+				F24DA99E1D12FD440027C681 /* HFFeedItemCell.h */,
+				F24DA99F1D12FD440027C681 /* HFFeedItemCell.m */,
+				F24DA9A01D12FD440027C681 /* HFMetadataItemCell.h */,
+				F24DA9A11D12FD440027C681 /* HFMetadataItemCell.m */,
+				F24DA9A21D12FD440027C681 /* HFPlaceholderCell.h */,
+				F24DA9A31D12FD440027C681 /* HFPlaceholderCell.m */,
+				F24DA9A41D12FD440027C681 /* HFSectionHeaderCell.h */,
+				F24DA9A51D12FD440027C681 /* HFSectionHeaderCell.m */,
+				F24DA9A61D12FD440027C681 /* HFTitleCell.h */,
+				F24DA9A71D12FD440027C681 /* HFTitleCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		F24DA9C71D12FD450027C681 /* HealthFeedDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				F24DA9C81D12FD450027C681 /* HFDataManager.h */,
+				F24DA9C91D12FD450027C681 /* HFDataManager.m */,
+			);
+			path = HealthFeedDataManager;
+			sourceTree = "<group>";
+		};
+		F24DA9CC1D12FD450027C681 /* HFAnalyticsEngine */ = {
+			isa = PBXGroup;
+			children = (
+				F24DA9CD1D12FD450027C681 /* HFAnalyticsEngine.h */,
+				F24DA9CE1D12FD450027C681 /* HFAnalyticsEngine.m */,
+			);
+			path = HFAnalyticsEngine;
+			sourceTree = "<group>";
+		};
+		F24DA9D01D12FD450027C681 /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				F24DA9D11D12FD450027C681 /* AuthService */,
+				F24DA9D41D12FD450027C681 /* HealthFeedSDK+Internal.h */,
+			);
+			path = Internal;
+			sourceTree = "<group>";
+		};
+		F24DA9D11D12FD450027C681 /* AuthService */ = {
+			isa = PBXGroup;
+			children = (
+				F24DA9D21D12FD450027C681 /* AuthService.h */,
+				F24DA9D31D12FD450027C681 /* AuthService.m */,
+			);
+			path = AuthService;
+			sourceTree = "<group>";
+		};
+		F24DA9D51D12FD450027C681 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F24DA9D61D12FD450027C681 /* Campaigns */,
+				F24DA9D91D12FD450027C681 /* Feed */,
+				F24DA9E21D12FD450027C681 /* HFAPIRoleType.h */,
+				F24DA9E31D12FD450027C681 /* HFBaseModelObject.h */,
+				F24DA9E41D12FD450027C681 /* HFBaseModelObject.m */,
+				F24DA9E51D12FD450027C681 /* HFError.h */,
+				F24DA9E61D12FD450027C681 /* HFError.m */,
+				F24DA9E71D12FD450027C681 /* HFModel.h */,
+				F24DA9E81D12FD450027C681 /* Internal */,
+				F24DA9F61D12FD450027C681 /* Profile */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F24DA9D61D12FD450027C681 /* Campaigns */ = {
+			isa = PBXGroup;
+			children = (
+				F24DA9D71D12FD450027C681 /* HFCampaignItem.h */,
+				F24DA9D81D12FD450027C681 /* HFCampaignItem.m */,
+			);
+			path = Campaigns;
+			sourceTree = "<group>";
+		};
+		F24DA9D91D12FD450027C681 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				F24DA9DA1D12FD450027C681 /* HFFeedItem.h */,
+				F24DA9DB1D12FD450027C681 /* HFFeedItem.m */,
+				F24DA9DC1D12FD450027C681 /* HFFeedMetadata.h */,
+				F24DA9DD1D12FD450027C681 /* HFFeedMetadata.m */,
+				F24DA9DE1D12FD450027C681 /* HFFeedMetadataElement.h */,
+				F24DA9DF1D12FD450027C681 /* HFFeedMetadataElement.m */,
+				F24DA9E01D12FD450027C681 /* HFFeedResponse.h */,
+				F24DA9E11D12FD450027C681 /* HFFeedResponse.m */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		F24DA9E81D12FD450027C681 /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				F24DA9E91D12FD450027C681 /* HFAssociatedCampaignObject.h */,
+				F24DA9EA1D12FD450027C681 /* HFAssociatedCampaignObject.m */,
+				F24DA9EB1D12FD450027C681 /* HFCampaignItem+Internal.h */,
+				F24DA9EC1D12FD450027C681 /* HFCampaignItem+Internal.m */,
+				F24DA9ED1D12FD450027C681 /* HFExtraData+Internal.h */,
+				F24DA9EE1D12FD450027C681 /* HFExtraData+Internal.m */,
+				F24DA9EF1D12FD450027C681 /* HFFeedMetadata+Internal.h */,
+				F24DA9F01D12FD450027C681 /* HFFeedMetadata+Internal.m */,
+				F24DA9F11D12FD450027C681 /* HFMedicalHistory+Internal.h */,
+				F24DA9F21D12FD450027C681 /* HFMedicalHistory+Internal.m */,
+				F24DA9F31D12FD450027C681 /* HFModel+Internal.h */,
+				F24DA9F41D12FD450027C681 /* HFUserProfile+Internal.h */,
+				F24DA9F51D12FD450027C681 /* HFUserProfile+Internal.m */,
+			);
+			path = Internal;
+			sourceTree = "<group>";
+		};
+		F24DA9F61D12FD450027C681 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				F24DA9F71D12FD450027C681 /* HFConditionItem.h */,
+				F24DA9F81D12FD450027C681 /* HFConditionItem.m */,
+				F24DA9F91D12FD450027C681 /* HFExtraData.h */,
+				F24DA9FA1D12FD450027C681 /* HFExtraData.m */,
+				F24DA9FB1D12FD450027C681 /* HFMedicalUserProfile.h */,
+				F24DA9FC1D12FD450027C681 /* HFMedicalUserProfile.m */,
+				F24DA9FD1D12FD450027C681 /* HFUserProfile.h */,
+				F24DA9FE1D12FD450027C681 /* HFUserProfile.m */,
+				F24DA9FF1D12FD450027C681 /* MedicalHistory */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		F24DA9FF1D12FD450027C681 /* MedicalHistory */ = {
+			isa = PBXGroup;
+			children = (
+				F24DAA001D12FD450027C681 /* HFBaseCode.h */,
+				F24DAA011D12FD450027C681 /* HFBaseCode.m */,
+				F24DAA021D12FD450027C681 /* HFCodeName.h */,
+				F24DAA031D12FD450027C681 /* HFCodeName.m */,
+				F24DAA041D12FD450027C681 /* HFCodeStartEndPointTime.h */,
+				F24DAA051D12FD450027C681 /* HFCodeStartEndPointTime.m */,
+				F24DAA061D12FD450027C681 /* HFCodeStartEndPointTimeName.h */,
+				F24DAA071D12FD450027C681 /* HFCodeStartEndPointTimeName.m */,
+				F24DAA081D12FD450027C681 /* HFDiagnosisList.h */,
+				F24DAA091D12FD450027C681 /* HFDiagnosisList.m */,
+				F24DAA0A1D12FD450027C681 /* HFDrugsToAvoid.h */,
+				F24DAA0B1D12FD450027C681 /* HFDrugsToAvoid.m */,
+				F24DAA0C1D12FD450027C681 /* HFDrugsToAvoidList.h */,
+				F24DAA0D1D12FD450027C681 /* HFDrugsToAvoidList.m */,
+				F24DAA0E1D12FD450027C681 /* HFLastPrescription.h */,
+				F24DAA0F1D12FD450027C681 /* HFLastPrescription.m */,
+				F24DAA101D12FD450027C681 /* HFMeasurement.h */,
+				F24DAA111D12FD450027C681 /* HFMeasurement.m */,
+				F24DAA121D12FD450027C681 /* HFMeasurementList.h */,
+				F24DAA131D12FD450027C681 /* HFMeasurementList.m */,
+				F24DAA141D12FD450027C681 /* HFMedicalHistory.h */,
+				F24DAA151D12FD450027C681 /* HFMedicalHistory.m */,
+				F24DAA161D12FD450027C681 /* HFMedication.h */,
+				F24DAA171D12FD450027C681 /* HFMedication.m */,
+				F24DAA181D12FD450027C681 /* HFMedicationList.h */,
+				F24DAA191D12FD450027C681 /* HFMedicationList.m */,
+				F24DAA1A1D12FD450027C681 /* HFPregnancy.h */,
+				F24DAA1B1D12FD450027C681 /* HFPregnancy.m */,
+				F24DAA1C1D12FD450027C681 /* HFProcedure.h */,
+				F24DAA1D1D12FD450027C681 /* HFProcedure.m */,
+				F24DAA1E1D12FD450027C681 /* HFProcedureList.h */,
+				F24DAA1F1D12FD450027C681 /* HFProcedureList.m */,
+				F24DAA201D12FD450027C681 /* HFProfessionList.h */,
+				F24DAA211D12FD450027C681 /* HFProfessionList.m */,
+				F24DAA221D12FD450027C681 /* HFReasonForAvoiding.h */,
+				F24DAA231D12FD450027C681 /* HFReasonForAvoiding.m */,
+				F24DAA241D12FD450027C681 /* HFSmoking.h */,
+				F24DAA251D12FD450027C681 /* HFSmoking.m */,
+				F24DAA261D12FD450027C681 /* HFTherapiesList.h */,
+				F24DAA271D12FD450027C681 /* HFTherapiesList.m */,
+				F24DAA281D12FD450027C681 /* HFVaccine.h */,
+				F24DAA291D12FD450027C681 /* HFVaccine.m */,
+				F24DAA2A1D12FD450027C681 /* HFVaccineList.h */,
+				F24DAA2B1D12FD450027C681 /* HFVaccineList.m */,
+			);
+			path = MedicalHistory;
+			sourceTree = "<group>";
+		};
+		F24DAA2C1D12FD450027C681 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F24DAA2D1D12FD450027C681 /* settings.html */,
+				F24DAA2E1D12FD450027C681 /* widget_info_image.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F24DAA2F1D12FD450027C681 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F24DAA301D12FD450027C681 /* NSDate+HF.h */,
+				F24DAA311D12FD450027C681 /* NSDate+HF.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F20BC1811D12FBE300A6E395 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F24DAA9B1D12FD450027C681 /* HFExtraData+Internal.h in Headers */,
+				F24DAAAC1D12FD450027C681 /* HFBaseCode.h in Headers */,
+				F24DAA3D1D12FD450027C681 /* HFInfeedCampaingView.h in Headers */,
+				F24DAA8F1D12FD450027C681 /* HFFeedResponse.h in Headers */,
+				F24DAA8B1D12FD450027C681 /* HFFeedMetadata.h in Headers */,
+				F24DAAA21D12FD450027C681 /* HFUserProfile+Internal.h in Headers */,
+				F24DAA9D1D12FD450027C681 /* HFFeedMetadata+Internal.h in Headers */,
+				F24DAADA1D12FD450027C681 /* NSDate+HF.h in Headers */,
+				F24DAA911D12FD450027C681 /* HFAPIRoleType.h in Headers */,
+				F24DAA471D12FD450027C681 /* ApiUrlConfigurator.h in Headers */,
+				F24DAA861D12FD450027C681 /* HealthFeedSDK+Internal.h in Headers */,
+				F24DAA871D12FD450027C681 /* HFCampaignItem.h in Headers */,
+				F24DAA731D12FD450027C681 /* HFMetadataViewController.h in Headers */,
+				F24DAA961D12FD450027C681 /* HFModel.h in Headers */,
+				F24DAA321D12FD450027C681 /* HFBottomBannerCampaignView.h in Headers */,
+				F24DAA751D12FD450027C681 /* HFQuestionCell.h in Headers */,
+				F24DAA5C1D12FD450027C681 /* HFTitleCell.h in Headers */,
+				F24DAA541D12FD450027C681 /* HFFeedItemCell.h in Headers */,
+				F24DAABE1D12FD450027C681 /* HFMeasurementList.h in Headers */,
+				F24DAA8D1D12FD450027C681 /* HFFeedMetadataElement.h in Headers */,
+				F24DAA891D12FD450027C681 /* HFFeedItem.h in Headers */,
+				F24DAAA41D12FD450027C681 /* HFConditionItem.h in Headers */,
+				F24DAA6D1D12FD450027C681 /* HFInfoViewController.h in Headers */,
+				F24DAA9F1D12FD450027C681 /* HFMedicalHistory+Internal.h in Headers */,
+				F24DAA6F1D12FD450027C681 /* HFLoaderCell.h in Headers */,
+				F24DAA631D12FD450027C681 /* HFConditionItemCell.h in Headers */,
+				F24DAAA61D12FD450027C681 /* HFExtraData.h in Headers */,
+				F24DAA771D12FD450027C681 /* HFQuestionsViewController.h in Headers */,
+				F24DAAAE1D12FD450027C681 /* HFCodeName.h in Headers */,
+				F24DAAB01D12FD450027C681 /* HFCodeStartEndPointTime.h in Headers */,
+				F24DAA3B1D12FD450027C681 /* HFFullScreenCampaignView.h in Headers */,
+				F24DAA7B1D12FD450027C681 /* HFSettingsViewController.h in Headers */,
+				F24DAAC21D12FD450027C681 /* HFMedication.h in Headers */,
+				F24DAA691D12FD450027C681 /* HFFavoritesViewController.h in Headers */,
+				F20BC1881D12FBE300A6E395 /* HealthFeedSDKPod.h in Headers */,
+				F24DAA521D12FD450027C681 /* HFContentCell.h in Headers */,
+				F24DAA991D12FD450027C681 /* HFCampaignItem+Internal.h in Headers */,
+				F24DAA341D12FD450027C681 /* HFCampaignContentView.h in Headers */,
+				F24DAAD41D12FD450027C681 /* HFVaccine.h in Headers */,
+				F24DAA361D12FD450027C681 /* HFCampaignDelegate.h in Headers */,
+				F24DAAC41D12FD450027C681 /* HFMedicationList.h in Headers */,
+				F24DAA651D12FD450027C681 /* HFConditionsChooserViewController.h in Headers */,
+				F24DAA5A1D12FD450027C681 /* HFSectionHeaderCell.h in Headers */,
+				F24DAAD01D12FD450027C681 /* HFSmoking.h in Headers */,
+				F24DAAAA1D12FD450027C681 /* HFUserProfile.h in Headers */,
+				F24DAACA1D12FD450027C681 /* HFProcedureList.h in Headers */,
+				F24DAA5F1D12FD450027C681 /* HFCommentCell.h in Headers */,
+				F24DAA4B1D12FD450027C681 /* HFCampaignsManager+Internal.h in Headers */,
+				F24DAAD21D12FD450027C681 /* HFTherapiesList.h in Headers */,
+				F24DAA561D12FD450027C681 /* HFMetadataItemCell.h in Headers */,
+				F24DAAB81D12FD450027C681 /* HFDrugsToAvoidList.h in Headers */,
+				F24DAACE1D12FD450027C681 /* HFReasonForAvoiding.h in Headers */,
+				F24DAA811D12FD450027C681 /* HFAnalyticsEngine.h in Headers */,
+				F24DAAA81D12FD450027C681 /* HFMedicalUserProfile.h in Headers */,
+				F24DAACC1D12FD450027C681 /* HFProfessionList.h in Headers */,
+				F24DAA431D12FD450027C681 /* HFAPIClient.h in Headers */,
+				F24DAA841D12FD450027C681 /* AuthService.h in Headers */,
+				F24DAA7D1D12FD450027C681 /* HFDataManager.h in Headers */,
+				F24DAAB21D12FD450027C681 /* HFCodeStartEndPointTimeName.h in Headers */,
+				F24DAA4E1D12FD450027C681 /* HealthFeedViewController.h in Headers */,
+				F24DAA921D12FD450027C681 /* HFBaseModelObject.h in Headers */,
+				F24DAA371D12FD450027C681 /* HFCampaignsUIFactory.h in Headers */,
+				F24DAA581D12FD450027C681 /* HFPlaceholderCell.h in Headers */,
+				F24DAA391D12FD450027C681 /* HFCampaignView.h in Headers */,
+				F24DAABC1D12FD450027C681 /* HFMeasurement.h in Headers */,
+				F24DAAC61D12FD450027C681 /* HFPregnancy.h in Headers */,
+				F24DAA491D12FD450027C681 /* HFCampaignsManager.h in Headers */,
+				F24DAA501D12FD450027C681 /* HFConditionItemCellModel.h in Headers */,
+				F24DAA6B1D12FD450027C681 /* HFFeedViewController.h in Headers */,
+				F24DAA971D12FD450027C681 /* HFAssociatedCampaignObject.h in Headers */,
+				F24DAA671D12FD450027C681 /* HFCounter.h in Headers */,
+				F24DAA711D12FD450027C681 /* HFMainViewController.h in Headers */,
+				F24DAAA11D12FD450027C681 /* HFModel+Internal.h in Headers */,
+				F24DAA7F1D12FD450027C681 /* HealthFeedSDK.h in Headers */,
+				F24DAABA1D12FD450027C681 /* HFLastPrescription.h in Headers */,
+				F24DAAB61D12FD450027C681 /* HFDrugsToAvoid.h in Headers */,
+				F24DAA4C1D12FD450027C681 /* HFContentManager.h in Headers */,
+				F24DAAC01D12FD450027C681 /* HFMedicalHistory.h in Headers */,
+				F24DAA411D12FD450027C681 /* HFPopupCampaignView.h in Headers */,
+				F24DAAD61D12FD450027C681 /* HFVaccineList.h in Headers */,
+				F24DAAC81D12FD450027C681 /* HFProcedure.h in Headers */,
+				F24DAA3F1D12FD450027C681 /* HFLeaderboardCampaignView.h in Headers */,
+				F24DAA791D12FD450027C681 /* HFSearchViewController.h in Headers */,
+				F24DAA451D12FD450027C681 /* ApiParams.h in Headers */,
+				F24DAAB41D12FD450027C681 /* HFDiagnosisList.h in Headers */,
+				F24DAA611D12FD450027C681 /* HFCommentsViewController.h in Headers */,
+				F24DAA941D12FD450027C681 /* HFError.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F20BC1831D12FBE300A6E395 /* HealthFeedSDKPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F20BC18C1D12FBE300A6E395 /* Build configuration list for PBXNativeTarget "HealthFeedSDKPod" */;
+			buildPhases = (
+				C6D0D1EE85A9B9772D2105DA /* [CP] Check Pods Manifest.lock */,
+				F20BC17F1D12FBE300A6E395 /* Sources */,
+				F20BC1801D12FBE300A6E395 /* Frameworks */,
+				F20BC1811D12FBE300A6E395 /* Headers */,
+				F20BC1821D12FBE300A6E395 /* Resources */,
+				961ADD431E4DD18486567F4B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HealthFeedSDKPod;
+			productName = HealthFeedSDKPod;
+			productReference = F20BC1841D12FBE300A6E395 /* HealthFeedSDKPod.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F20BC17B1D12FBE300A6E395 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Vladislav Krasovsky";
+				TargetAttributes = {
+					F20BC1831D12FBE300A6E395 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = F20BC17E1D12FBE300A6E395 /* Build configuration list for PBXProject "HealthFeedSDKPod" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F20BC17A1D12FBE300A6E395;
+			productRefGroup = F20BC1851D12FBE300A6E395 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F20BC1831D12FBE300A6E395 /* HealthFeedSDKPod */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F20BC1821D12FBE300A6E395 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F24DAAD81D12FD450027C681 /* settings.html in Resources */,
+				F24DAAD91D12FD450027C681 /* widget_info_image.png in Resources */,
+				F24DAA831D12FD450027C681 /* HFAssets.xcassets in Resources */,
+				F24DAA5E1D12FD450027C681 /* HealthFeedStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		961ADD431E4DD18486567F4B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HealthFeedSDKPod/Pods-HealthFeedSDKPod-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6D0D1EE85A9B9772D2105DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F20BC17F1D12FBE300A6E395 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F24DAA901D12FD450027C681 /* HFFeedResponse.m in Sources */,
+				F24DAA951D12FD450027C681 /* HFError.m in Sources */,
+				F24DAA3C1D12FD450027C681 /* HFFullScreenCampaignView.m in Sources */,
+				F24DAACD1D12FD450027C681 /* HFProfessionList.m in Sources */,
+				F24DAAD11D12FD450027C681 /* HFSmoking.m in Sources */,
+				F24DAA3A1D12FD450027C681 /* HFCampaignView.m in Sources */,
+				F24DAA8A1D12FD450027C681 /* HFFeedItem.m in Sources */,
+				F24DAAD71D12FD450027C681 /* HFVaccineList.m in Sources */,
+				F24DAA681D12FD450027C681 /* HFCounter.m in Sources */,
+				F24DAAA51D12FD450027C681 /* HFConditionItem.m in Sources */,
+				F24DAA741D12FD450027C681 /* HFMetadataViewController.m in Sources */,
+				F24DAA6E1D12FD450027C681 /* HFInfoViewController.m in Sources */,
+				F24DAA761D12FD450027C681 /* HFQuestionCell.m in Sources */,
+				F24DAA9A1D12FD450027C681 /* HFCampaignItem+Internal.m in Sources */,
+				F24DAA351D12FD450027C681 /* HFCampaignContentView.m in Sources */,
+				F24DAA531D12FD450027C681 /* HFContentCell.m in Sources */,
+				F24DAAD51D12FD450027C681 /* HFVaccine.m in Sources */,
+				F24DAA5B1D12FD450027C681 /* HFSectionHeaderCell.m in Sources */,
+				F24DAA591D12FD450027C681 /* HFPlaceholderCell.m in Sources */,
+				F24DAA551D12FD450027C681 /* HFFeedItemCell.m in Sources */,
+				F24DAA851D12FD450027C681 /* AuthService.m in Sources */,
+				F24DAA7A1D12FD450027C681 /* HFSearchViewController.m in Sources */,
+				F24DAAA01D12FD450027C681 /* HFMedicalHistory+Internal.m in Sources */,
+				F24DAA381D12FD450027C681 /* HFCampaignsUIFactory.m in Sources */,
+				F24DAAC51D12FD450027C681 /* HFMedicationList.m in Sources */,
+				F24DAAB91D12FD450027C681 /* HFDrugsToAvoidList.m in Sources */,
+				F24DAA461D12FD450027C681 /* ApiParams.m in Sources */,
+				F24DAA331D12FD450027C681 /* HFBottomBannerCampaignView.m in Sources */,
+				F24DAA441D12FD450027C681 /* HFAPIClient.m in Sources */,
+				F24DAA7E1D12FD450027C681 /* HFDataManager.m in Sources */,
+				F24DAADB1D12FD450027C681 /* NSDate+HF.m in Sources */,
+				F24DAABB1D12FD450027C681 /* HFLastPrescription.m in Sources */,
+				F24DAAD31D12FD450027C681 /* HFTherapiesList.m in Sources */,
+				F24DAA821D12FD450027C681 /* HFAnalyticsEngine.m in Sources */,
+				F24DAAC31D12FD450027C681 /* HFMedication.m in Sources */,
+				F24DAA881D12FD450027C681 /* HFCampaignItem.m in Sources */,
+				F24DAA421D12FD450027C681 /* HFPopupCampaignView.m in Sources */,
+				F24DAA6A1D12FD450027C681 /* HFFavoritesViewController.m in Sources */,
+				F24DAACF1D12FD450027C681 /* HFReasonForAvoiding.m in Sources */,
+				F24DAAAB1D12FD450027C681 /* HFUserProfile.m in Sources */,
+				F24DAAB51D12FD450027C681 /* HFDiagnosisList.m in Sources */,
+				F24DAA5D1D12FD450027C681 /* HFTitleCell.m in Sources */,
+				F24DAA801D12FD450027C681 /* HealthFeedSDK.m in Sources */,
+				F24DAA701D12FD450027C681 /* HFLoaderCell.m in Sources */,
+				F24DAAC71D12FD450027C681 /* HFPregnancy.m in Sources */,
+				F24DAA9C1D12FD450027C681 /* HFExtraData+Internal.m in Sources */,
+				F24DAAAD1D12FD450027C681 /* HFBaseCode.m in Sources */,
+				F24DAA481D12FD450027C681 /* ApiUrlConfigurator.m in Sources */,
+				F24DAA8E1D12FD450027C681 /* HFFeedMetadataElement.m in Sources */,
+				F24DAA4D1D12FD450027C681 /* HFContentManager.m in Sources */,
+				F24DAAA71D12FD450027C681 /* HFExtraData.m in Sources */,
+				F24DAA601D12FD450027C681 /* HFCommentCell.m in Sources */,
+				F24DAA3E1D12FD450027C681 /* HFInfeedCampaingView.m in Sources */,
+				F24DAAB71D12FD450027C681 /* HFDrugsToAvoid.m in Sources */,
+				F24DAA511D12FD450027C681 /* HFConditionItemCellModel.m in Sources */,
+				F24DAA931D12FD450027C681 /* HFBaseModelObject.m in Sources */,
+				F24DAA781D12FD450027C681 /* HFQuestionsViewController.m in Sources */,
+				F24DAA401D12FD450027C681 /* HFLeaderboardCampaignView.m in Sources */,
+				F24DAABF1D12FD450027C681 /* HFMeasurementList.m in Sources */,
+				F24DAA4F1D12FD450027C681 /* HealthFeedViewController.m in Sources */,
+				F24DAACB1D12FD450027C681 /* HFProcedureList.m in Sources */,
+				F24DAA9E1D12FD450027C681 /* HFFeedMetadata+Internal.m in Sources */,
+				F24DAA641D12FD450027C681 /* HFConditionItemCell.m in Sources */,
+				F24DAAC91D12FD450027C681 /* HFProcedure.m in Sources */,
+				F24DAA661D12FD450027C681 /* HFConditionsChooserViewController.m in Sources */,
+				F24DAAB31D12FD450027C681 /* HFCodeStartEndPointTimeName.m in Sources */,
+				F24DAA621D12FD450027C681 /* HFCommentsViewController.m in Sources */,
+				F24DAABD1D12FD450027C681 /* HFMeasurement.m in Sources */,
+				F24DAAC11D12FD450027C681 /* HFMedicalHistory.m in Sources */,
+				F24DAA8C1D12FD450027C681 /* HFFeedMetadata.m in Sources */,
+				F24DAA7C1D12FD450027C681 /* HFSettingsViewController.m in Sources */,
+				F24DAAA31D12FD450027C681 /* HFUserProfile+Internal.m in Sources */,
+				F24DAA721D12FD450027C681 /* HFMainViewController.m in Sources */,
+				F24DAA981D12FD450027C681 /* HFAssociatedCampaignObject.m in Sources */,
+				F24DAA4A1D12FD450027C681 /* HFCampaignsManager.m in Sources */,
+				F24DAAB11D12FD450027C681 /* HFCodeStartEndPointTime.m in Sources */,
+				F24DAA6C1D12FD450027C681 /* HFFeedViewController.m in Sources */,
+				F24DAAA91D12FD450027C681 /* HFMedicalUserProfile.m in Sources */,
+				F24DAAAF1D12FD450027C681 /* HFCodeName.m in Sources */,
+				F24DAA571D12FD450027C681 /* HFMetadataItemCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F20BC18A1D12FBE300A6E395 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F20BC18B1D12FBE300A6E395 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F20BC18D1D12FBE300A6E395 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36813FC8A8A1740030B81D5E /* Pods-HealthFeedSDKPod.debug.xcconfig */;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = HealthFeedSDKPod/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.softteco.HealthFeedSDKPod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F20BC18E1D12FBE300A6E395 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B364D6C52B3FD6A90E565C2 /* Pods-HealthFeedSDKPod.release.xcconfig */;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = HealthFeedSDKPod/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.softteco.HealthFeedSDKPod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F20BC17E1D12FBE300A6E395 /* Build configuration list for PBXProject "HealthFeedSDKPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F20BC18A1D12FBE300A6E395 /* Debug */,
+				F20BC18B1D12FBE300A6E395 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F20BC18C1D12FBE300A6E395 /* Build configuration list for PBXNativeTarget "HealthFeedSDKPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F20BC18D1D12FBE300A6E395 /* Debug */,
+				F20BC18E1D12FBE300A6E395 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F20BC17B1D12FBE300A6E395 /* Project object */;
+}

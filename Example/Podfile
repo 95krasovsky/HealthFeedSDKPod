@@ -1,0 +1,6 @@
+use_frameworks!
+
+target 'HealthFeedSDKPod_Example' do
+  pod 'HealthFeedSDKPod', :path => '~/Projects/CocoaPods/HealthFeedSDKPod'
+
+end
